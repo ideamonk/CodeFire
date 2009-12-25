@@ -1,0 +1,105 @@
+Fri Dec 25 23:21:27 IST 2009                               ideamonk at gmail.com
+                                                        hackfanatic at gmail.com
+
+
+                    _________________________________________
+                    / Merry Christmas, I'm putting everything \
+                    \ on github, man I love this place :)     /
+                    -----------------------------------------
+                            \   ^__^
+                            \  (oo)\_______
+                                (__)\       )\/\
+                                    ||----w |
+                                    ||     ||
+
+
+PREFACE
+--------
+Well, we have seen a lot of people who know one or the other programming languages.
+We can see them all over India. You can find so many people taking C/C++ courses,
+yet another huge lot taking up Java courses. Do you think merely joining such courses
+or learning what is done in the B.Tech syllabus, is enough to solve real world problems?
+You might have seen what a structure is in C/C++ but, you never came to see how it
+can help simplify complicated problems of reality. You might have learnt sorting
+algorithms, but how many time you have used it to do something other than solving
+the test paper ? What point I'm trying to bring out is that, something is lacking
+in the learning process. Its the 'Application' of what we have learnt.
+And CodeFire my friends, is the platform where you can come up, show off ur skills,
+compete with others, and learn more better ways to fulfill this gap.
+
+What CodeFire aims to do is to create a competitive environment for all those who
+would love to be better programmers of the future. CodeFire is open to all, there
+is no restriction of branch, year, age etc.
+
+In December 2007, we went for ACM-ICPC (International Collegiate Programming Contest)
+Asia round. Our teams got ranks 32 and 36 respectively. Overall 100 teams from all
+over India and Asia participated. We think we can do a lot better! And CodeFire
+is what is gonna help us create the very best teams out of our institution
+to be sent to such contests....
+
+
+
+INSTALLATION WORKAROUND
+------------------------
+
+Im documenting it as I install it on a winXP vm
+
+1. Download XAMPP - http://www.apachefriends.org/download.php?xampp-win32-1.7.0.zip
+2. Extract it in a folder called "xampp" on root of any drive that has enough space.
+3. Now the xampp folder should have folders like 'mysql', 'htdocs' etc
+4. in htdocs you place websites etc
+5. the mysql folder has a folder - 'data' thats where the database lies in form of files n folders
+6. Now you need to clean the htdocs folder
+7. Make a folder called 'xampp' inside htdocs folder
+8. shift all the contents from htdoct to htdocs/xampp (ofcourse excluding the newly makde htdocs/xampp)
+9. That folder contains crucial part of xampp configuration, in cases of emergency it would be useful
+10. Basically the phpMyAdmin , the web interface for DB management is khulla open as "http://127.0.0.1/phpmyadmin/" so beware of people who know xampp or are too clever. Theres no password on that page. Password changing is a lil screwd up, we're used same username "root" with no pass to create the database. changing root password would screw stuff.
+11. So, that url shudn't be seen by any friend, foe or fucker :P.. same goes for this mail
+
+12. extract codefire2.rar into your htdocs folder.
+13. Now htdocs folder should contain files like reg.php, tuts.php etc.
+14. and http://127.0.0.1/ should show up codefire logo etc
+15. Download a devcpp portable edition from http://sourceforge.net/project/showfiles.php?group_id=190331&package_id=223332&release_id=502572
+
+16. Bring this paf.exe crap into htdocs/codetemp folder
+17. double click it, and hit install/extract without much thoughts.
+18. Now you should have a new folder in htdocs/codetemp folder with some name
+19. whatever name it has rename/make sure it is = "Dev-CppPortable"
+20. Download/get a latest copy of devcpp installer
+21. place it in htdocs folder
+22. Make sure/rename it to "devcpp-4.9.9.2_setup.exe" no matter what its name is.
+
+23. Now you gotta put the data
+24. goto xampp/mysql/data folder
+25. extract mainbank.rar there
+26. now you should have xampp/mysql/data/mainbank folder which should have some files like db.opt etc.
+
+27. Now in the xampp foder run xampp_control.exe, it would sit in tray
+28. bring it up and tick svc infront of apache
+29. run apache and mysql... make sure both are green  n running
+30. Now test codefire as http://127.0.0.1/
+31. ideamonk is already registererd
+
+32. Adminning the codefire -
+33. goto http://127.0.0.1/admin.php to get a login
+34. username codeadmin password binaryfire
+35. Play with the interface.
+36. type of problem won't work, we removed it for icpc contest and i don't know if i commented or deleted the code
+37. Keep clicking list submissions when contest goes on to qualify/fuck peopl
+38. test the compilation before implementing it... make sure you do.
+
+39. Now when putting it up in lab/etc just copy paste the whole xampp thing there
+40. test it again... and have fun.
+
+I guess that's all, hopefully...
+
+when people complain that their code isnt getting submitted properly,
+as d admin, browse to http://127.0.0.1/phpmyadmin
+select the db called mainbanl from left
+goto a table called subm, checkout the code column for that guy whose pissing you
+copy the whole code
+compile n test it in devcpp
+judge him/her on that.
+make them happy lol
+
+anyways try it.
